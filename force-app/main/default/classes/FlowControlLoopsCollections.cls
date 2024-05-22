@@ -311,9 +311,9 @@ public with sharing class FlowControlLoopsCollections {
         Integer totalPositiveNums = 0;
         // Loop through the list of integers
             // if the number is negative skip this iteration
-        for(Integer number : numbers) {
-            If (number > 0) {
-                totalPositiveNums += number;
+        for(Integer nbr: numbers) {
+            If (nbr > 0) {
+                totalPositiveNums += nbr;
             }
         }
         return totalPositiveNums; 
